@@ -452,13 +452,21 @@ MQTT消息队列小工具
 >
 > 一些终端工具，大部分都支持全平台
 
+### [zsh](https://www.zsh.org/)
+
+Mac的默认Shell，用习惯了
+
+### [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+
+zsh主题
+
+### [fish](https://fishshell.com/)
+
+user-friendly Shell，正在尝试使用fish
+
 ### [tmux](https://github.com/tmux/tmux/wiki)
 
-终端分屏
-
-### [vim](https://www.vim.org/)
-
-文本编辑器
+终端分屏，还可以后台保持任务持久。配合iTerm2非常好用。
 
 ### [zoxide](https://github.com/ajeetdsouza/zoxide)
 
@@ -467,18 +475,6 @@ MQTT消息队列小工具
 ### [neofetch](https://github.com/dylanaraps/neofetch)
 
 获取操作系统信息
-
-### [zsh](https://www.zsh.org/)
-
-Mac的默认Shell
-
-### [powerlevel10k](https://github.com/romkatv/powerlevel10k)
-
-zsh主题
-
-### [fish](https://fishshell.com/)
-
-user-friendly Shell
 
 ### [miniconda](https://docs.anaconda.com/miniconda/)
 
@@ -517,3 +513,15 @@ Markdown Presentation，可以用Markdown文件快速制作演示文稿
 ### [exiftool](https://exiftool.org/)
 
 编辑图片的exif信息
+
+### [vim](https://www.vim.org/)
+
+文本编辑器
+
+### [vimv](https://github.com/thameera/vimv)
+
+用vim文本编辑器来批量修改文件名，谁用谁知道😭，神！
+
+### [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
+
+vim插件，可以实现多光标输入
