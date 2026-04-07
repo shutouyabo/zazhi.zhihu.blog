@@ -92,6 +92,7 @@ nav:
           - Note/Algorithm/redommendation/other_cross.md
           - Note/Algorithm/redommendation/user_last_n.md
         - Note/Algorithm/redommendation/diversity.md
+        - Note/Algorithm/redommendation/cold_start.md
       - Interview:
         - Note/Algorithm/interview/0309_pdd.md
         - Note/Algorithm/interview/0312_wechat.md
