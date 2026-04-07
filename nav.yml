@@ -61,7 +61,7 @@ nav:
         - Note/Algorithm/generative/gpt.md
         - Note/Algorithm/generative/diffusion.md
         - Note/Algorithm/generative/flow_matching.md
-      - 搜索系统:
+      - 搜索引擎:
         - Note/Algorithm/search/index.md
         - Note/Algorithm/search/vec_database.md
       - 广告系统:
