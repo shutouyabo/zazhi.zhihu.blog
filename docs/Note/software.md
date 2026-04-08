@@ -19,6 +19,10 @@ tags:
 
 虽然是Apple的产品，但它是全平台可用的
 
+### [Folo](https://folo.is/)
+
+RSS聚合软件
+
 ### [LICEcap](https://www.cockos.com/licecap/)
 
 超好用的GIF录屏软件
@@ -40,6 +44,10 @@ tags:
 The editor for what's next.
 
 快就是好，比vscode还要快得多！
+
+### [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve)
+
+专业级的视频调色软件，可以做一点简单的剪辑，对12bit nlog视频支持很好
 
 ### [Docker](https://www.docker.com/)
 
@@ -82,6 +90,10 @@ QQ-轻松做自己。意义不明的slogan
 ### [Telegram](https://telegram.org/)
 
 a new era of messaging
+
+### [Tailscale](https://tailscale.com/)
+
+开箱即用的异地组网工具
 
 ### [Iriun Webcam](https://iriun.com/)
 
@@ -151,6 +163,10 @@ ssh、sftp客户端
 
 稍后再读
 
+### [project-graph](https://github.com/graphif/project-graph)
+
+Project Graph 是一款专注于快速绘制节点图的桌面工具
+
 ### [SimpleTex](https://simpletex.cn/)
 
 mathpix的免费替代，识别率还算可以。重点是免费啊！！推荐~
@@ -168,6 +184,10 @@ mathpix的免费替代，识别率还算可以。重点是免费啊！！推荐~
 FTP客户端
 
 ## Windows
+
+### [FastStone Image Viewer](https://www.faststone.org/)
+
+超级好用的照片管理软件，对尼康raw照片的支持非常好！
 
 ### [Chocolatey](https://chocolatey.org/)
 
@@ -252,6 +272,10 @@ TeX for Windows
 
 ## MacOS
 
+### [Raycast](https://www.raycast.com/)
+
+快速好用美观的启动台
+
 ### [Homebrew](https://brew.sh/)
 
 MacOS包管理工具，很多的开源软件都会提供`brew`的安装方式
@@ -304,11 +328,15 @@ Fast, light, simple Docker & Linux on macOS
 
 TeX for Mac
 
-### Screen Mirror
+### [Picsee](https://apps.apple.com/cn/app/picsee-%E7%9C%8B%E5%9B%BE-%E7%85%A7%E7%89%87%E7%AE%A1%E7%90%86/id1454805783?mt=12)
+
+照片管理、查看工具，能用但是对nraw的支持不完全
+
+### [Screen Mirror](https://apps.apple.com/cn/app/screen-mirror-and-control/id1612180624?mt=12)
 
 > 如果用AirPlay，那么只能在全屏的情况下投影
 
-可以把ipad的屏幕内容投影到Mac上。
+可以把ipad的屏幕内容投影到Mac上，然后在开会的时候共享给别人看。
 
 ### [Skim](https://skim-app.sourceforge.io/)
 
@@ -322,7 +350,7 @@ PDF阅读/笔记软件。比preview好用多了。
 
 文件临时存放，跨窗口拖拽文件。
 
-### 爱思助手
+### [爱思助手](https://i4.cn/)
 
 可以利用iPhone的开发者模式做很多骚操作（比如虚拟定位）
 
@@ -525,3 +553,31 @@ Markdown Presentation，可以用Markdown文件快速制作演示文稿
 ### [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
 
 vim插件，可以实现多光标输入
+
+### [codex](https://github.com/openai/codex)
+
+openai公司的cli编程助手，好用！CN地区友好～账号比较容易
+
+### [claude-code](https://github.com/anthropics/claude-code)
+
+authentic公司的的cli编程助手，最好用。但是CN地区不友好～而且很贵
+
+### [mkdocs](https://www.mkdocs.org/)
+
+从markdown生成静态网页（Python实现
+
+### [hugo](https://gohugo.io/)
+
+从markdown生成静态网页（Go实现
+
+### [imagemagick](https://imagemagick.org/)
+
+图片处理工具
+
+### [tldr](https://tldr.sh/)
+
+快速查询各种命令的用法
+
+### [shell-gpt](https://github.com/ther1d/shell_gpt)
+
+在终端快速使用gpt
