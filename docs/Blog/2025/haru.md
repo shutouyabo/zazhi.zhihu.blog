@@ -23,14 +23,14 @@ include:
 鲁迅公园的水清澈见底，还经常能看到鸭子和黑天鹅：
 
 <div style="width: 70%; margin: auto;">
-<live-photo-element src="assets/IMG_6479.png" caption="🦆撅屁股">
+<live-photo-element src="../assets/IMG_6479.png" caption="🦆撅屁股">
 </live-photo-element>
 </div>
 
 水边的万条垂下绿丝绦也是极美的：
 
 <div style="width: 70%; margin: auto;">
-<live-photo-element src="assets/IMG_6473.png" caption="好嫩的绿色！">
+<live-photo-element src="../assets/IMG_6473.png" caption="好嫩的绿色！">
 </live-photo-element>
 </div>
 
