@@ -42,8 +42,12 @@ nav:
       - Note/vtravel/index.md
       - Note/vtravel/ushuaia.md
     - 摄影:
-      - Note/Photography/terminology.md
+      - Note/Photography/bags.md
+      - Note/Photography/metrics.md
+      - Note/Photography/nlog.md
+      - Note/Photography/Nikon_Z5ii.md
       - Note/Photography/Nikon_Z5.md
+      - Note/Photography/terminology.md
     - Algorithm:
       - Note/Algorithm/index.md
       - LLM:
@@ -226,6 +230,12 @@ nav:
   - Blog:
     - Blog/index.md
     - 2026:
+      - Blog/2026/shandong.md
+      - Blog/2026/wuhan.md
+      - Blog/2026/sakura.md
+      - Blog/2026/funeral.md
+      - Blog/2026/nian.md
+      - Blog/2026/anqing.md
       - Blog/2026/siyang.md
     - 2025:
       - Blog/2025/2025_recall.md

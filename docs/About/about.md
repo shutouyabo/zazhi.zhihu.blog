@@ -61,7 +61,7 @@ icon: material/emoticon-wink-outline
 ### Keywords
 
 - [**张杨**](../Blog/2023/name.md)：本体。敝人的姓名。取自我父母的姓氏，遇到过若干的同名朋友，还经常被叫成*张扬*🤣
-- [**泗阳**](https://zh.wikipedia.org/wiki/%E6%B3%97%E9%98%B3%E5%8E%BF)：我来自[运河](https://zh.wikipedia.org/zh-hans/%E4%BA%AC%E6%9D%AD%E5%A4%A7%E8%BF%90%E6%B2%B3)边上的小城，是一只住在[洪泽湖](https://zh.wikipedia.org/wiki/%E6%B4%AA%E6%B3%BD%E6%B9%96)边的旱鸭子。
+- [**泗阳**](../Blog/2026/siyang.md)：我来自[运河](https://zh.wikipedia.org/zh-hans/%E4%BA%AC%E6%9D%AD%E5%A4%A7%E8%BF%90%E6%B2%B3)边上的小城，是一只住在[洪泽湖](https://zh.wikipedia.org/wiki/%E6%B4%AA%E6%B3%BD%E6%B9%96)边的旱鸭子。
 - [**AIboy996**](https://github.com/AIboy996)：GitHub分身。取这个名字是因为Github这样程序员聚居的网站让我不禁联想到[996.icu](https://996.icu)。<s>前缀AIboy则来自于AIgirl，知名游戏</s>。现在看来，也可以解读为：我的专业是AI方向，所以我是AIboy。
 - [**豆汁泡纳豆**](https://space.bilibili.com/85735334)：哔哩哔哩分身，另外一个我很喜欢的名字，名字的由来不记得了，大概是我怀着对这两种食物的敬意一拍脑袋想出来的，目前为止没见过重名的，可以作为全网唯一标识符（确信）
 - [**悖论14**](../assets/images/qrcode.jpg)：个人微信订阅号分身，大约是当时刚看完东野圭吾的**悖论13**，感慨万千，同时又闲得无聊搞起了公众号。所以起了这么个名字（叫14不叫13是因为13被别人占用了，无奈只能叫14）
