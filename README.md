@@ -1,7 +1,7 @@
 # yangzhang's Site
 
 - [![Blog](https://img.shields.io/badge/Go-yangzhang.site-blue.svg)](https://yangzhang.site)
-- [![Blog](https://img.shields.io/badge/Go-yangz.site-red.svg)](https://yangz.site) in short (and ads free ~).
+- [![Blog](https://img.shields.io/badge/Go-yangz.site-red.svg)](https://yangz.site) for short (and ads free ~).
 
 ## 工具🔧
 
