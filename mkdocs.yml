@@ -1,8 +1,8 @@
-﻿site_name: 抖音视频
+﻿site_name: 在线杂志
 site_description: 学习。
-site_url: https://douyin.zhihu.blog
-repo_url: https://github.com/shutouyabo/douyin.zhihu.blog
-remote_name: shutouyabo/douyin.zhihu.blog
+site_url: https://zazhi.zhihu.blog
+repo_url: https://github.com/shutouyabo/zazhi.zhihu.blog
+remote_name: shutouyabo/zazhi.zhihu.blog
 edit_uri: edit/main/docs/ # 编辑按钮的url
 INHERIT: mkdocs.nav.yml
 

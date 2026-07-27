@@ -1,24 +1,24 @@
 nav:
   - Home: index.md
-  - 历史播主:
-      - lishi/index.md
+  - yilin:
+      - yilin/index.md
       - 西安潘鸫:
-          - lishi/xianpandong/index.md
+          - yilin/xianpandong/index.md
           - 2021:
-              - lishi/xianpandong/2021/唐朝：一个让爱做主的时代.md
-              - lishi/xianpandong/2021/你所不知道的关中八景.md                 
+              - yilin/xianpandong/2021/唐朝：一个让爱做主的时代.md
+              - yilin/xianpandong/2021/你所不知道的关中八景.md                 
       - 小璐歌:
-          - lishi/xiaoluge/index.md
+          - yilin/xiaoluge/index.md
           - 10分钟了解一个朝代:
-              - lishi/xiaoluge/10分钟了解一个朝代/10分钟了解西汉.md
+              - yilin/xiaoluge/10分钟了解一个朝代/10分钟了解西汉.md
           - 西汉帝陵:
-              - lishi/xiaoluge/西汉帝陵/汉高祖刘邦-长陵.md              
+              - yilin/xiaoluge/西汉帝陵/汉高祖刘邦-长陵.md              
       - 骑着摩托逛惟曈:
-          - lishi/weitong/index.md
+          - yilin/weitong/index.md
           - 西安老巷子的历史:
-              - lishi/weitong/西安老巷子的历史/下马陵.md
-              - lishi/weitong/西安老巷子的历史/董仲舒.md
-              - lishi/weitong/西安老巷子的历史/星火路.md  
+              - yilin/weitong/西安老巷子的历史/下马陵.md
+              - yilin/weitong/西安老巷子的历史/董仲舒.md
+              - yilin/weitong/西安老巷子的历史/星火路.md  
 
 
   - 2:
