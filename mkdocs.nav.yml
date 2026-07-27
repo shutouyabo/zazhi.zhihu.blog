@@ -1,7 +1,9 @@
 nav:
   - Home: index.md
   - 在线杂志:
+      - zazhi/index.md  
       - 意林:
+          - zazhi/yilin/index.md
           - 意林2025:
               - zazhi/yilin/2025/202524.md
               - zazhi/yilin/2025/202523.md
