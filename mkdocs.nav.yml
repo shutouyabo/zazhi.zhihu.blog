@@ -1,9 +1,9 @@
 nav:
   - Home: index.md
-  - yilin:
+  - 意林:
       - yilin/index.md
       - 2025:
-          - yilin/xianpandong/index.md
+          - yilin/2025/index.md
           - 2021:
               - yilin/xianpandong/2021/唐朝：一个让爱做主的时代.md
               - yilin/xianpandong/2021/你所不知道的关中八景.md                 
