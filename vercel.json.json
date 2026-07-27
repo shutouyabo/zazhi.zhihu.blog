@@ -3,7 +3,7 @@
   "installCommand": "python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt",
   "buildCommand": "source .venv/bin/activate && mkdocs build -d site",
   "outputDirectory": "site",
-  "framework": null,
+  "framework": "static",
   "env": {
     "NODE_OPTIONS": "--max_old_space_size=4096"
   },
@@ -11,6 +11,17 @@
     {
       "source": "/(.*)",
       "destination": "/$1.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
     }
   ]
 }
