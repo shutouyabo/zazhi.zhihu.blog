@@ -2,18 +2,18 @@ nav:
   - Home: index.md
   - yilin:
       - yilin/index.md
-      - 西安潘鸫:
+      - 2025:
           - yilin/xianpandong/index.md
           - 2021:
               - yilin/xianpandong/2021/唐朝：一个让爱做主的时代.md
               - yilin/xianpandong/2021/你所不知道的关中八景.md                 
-      - 小璐歌:
+      - 2024:
           - yilin/xiaoluge/index.md
           - 10分钟了解一个朝代:
               - yilin/xiaoluge/10分钟了解一个朝代/10分钟了解西汉.md
           - 西汉帝陵:
               - yilin/xiaoluge/西汉帝陵/汉高祖刘邦-长陵.md              
-      - 骑着摩托逛惟曈:
+      - 2023:
           - yilin/weitong/index.md
           - 西安老巷子的历史:
               - yilin/weitong/西安老巷子的历史/下马陵.md
