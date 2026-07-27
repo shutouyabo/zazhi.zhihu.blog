@@ -1,26 +1,24 @@
 nav:
   - Home: index.md
-  - 意林:
-      - yilin/index.md
-          - 2025:
-              - yilin/2025/202501.md
-              - yilin/2025/202502.md
-              - yilin/2025/202503.md
-              - yilin/2025/202504.md
-              - yilin/2025/202505.md
-              - yilin/2025/202506.md
-      - 2024:
-          - yilin/xiaoluge/index.md
+  - 在线杂志:
+      - zazhi/index.md
+      - 意林:
+          - zazhi/yilin/index.md
+          - 意林2025:
+              - zazhi/yilin/2025/202501.md
+              - zazhi/yilin/2025/202502.md                 
+      - 小璐歌:
+          - zazhi/xiaoluge/index.md
           - 10分钟了解一个朝代:
-              - yilin/xiaoluge/10分钟了解一个朝代/10分钟了解西汉.md
+              - zazhi/xiaoluge/10分钟了解一个朝代/10分钟了解西汉.md
           - 西汉帝陵:
-              - yilin/xiaoluge/西汉帝陵/汉高祖刘邦-长陵.md              
-      - 2023:
-          - yilin/weitong/index.md
+              - zazhi/xiaoluge/西汉帝陵/汉高祖刘邦-长陵.md              
+      - 骑着摩托逛惟曈:
+          - zazhi/weitong/index.md
           - 西安老巷子的历史:
-              - yilin/weitong/西安老巷子的历史/下马陵.md
-              - yilin/weitong/西安老巷子的历史/董仲舒.md
-              - yilin/weitong/西安老巷子的历史/星火路.md  
+              - zazhi/weitong/西安老巷子的历史/下马陵.md
+              - zazhi/weitong/西安老巷子的历史/董仲舒.md
+              - zazhi/weitong/西安老巷子的历史/星火路.md  
 
 
   - 2:
