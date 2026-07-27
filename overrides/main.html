@@ -1,24 +1,6 @@
 {% extends "base.html" %}
 
-{% block libs %}
-{{ super() }}
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2353855407972667"
-     crossorigin="anonymous"></script>
-<meta name="google-adsense-account" content="ca-pub-2353855407972667">
-<!-- 数学公式格式支持，用html嵌入的方式支持数学公式自动换行，mathjax似乎要支持但是现在还没实现。
-Automatic line breaking has not yet been implemented in MathJax version 3, 
-but is high on our list for inclusion in a future release. -->
-{% if page.meta and ("math" in page.meta.include) %}
-<script src="{{ 'assets/javascripts/math.js' | url }}"></script>
-{% endif %}
-<!-- 增加live photo的支持 -->
-{% if page.meta and ("live" in page.meta.include) %}
-<script src="{{ 'assets/javascripts/live.js' | url }}"></script>
-{% endif %}
-<!-- 增加对Jupyter Notebook的支持，额外引入一些css -->
-{% if page.meta and page.meta.source_file == "ipynb" %}
-<link rel="stylesheet" href="{{ 'assets/stylesheets/jp-vars.css' | url }}">
-<link rel="stylesheet" href="{{ 'assets/stylesheets/jp-notebook.css' | url }}">
-<link rel="stylesheet" href="{{ 'assets/stylesheets/jp-custom.css' | url }}">
-{% endif %}
+{% block extrahead %}
+  {{ super() }}
+  <link rel="preload" href="{{ 'stylesheets/NotoSansSC-UI-subset.woff' | url }}" as="font" type="font/woff" crossorigin>
 {% endblock %}

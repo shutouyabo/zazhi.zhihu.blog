@@ -1,169 +1,150 @@
-INHERIT: ./nav.yml
-site_name: yangzhang's Site
-site_url: https://yangzhang.site/
-site_author: Yang Zhang
-site_description: 张杨的个人网站
-validation:
-  links:
-    not_found: warn
-    absolute_links: info
-    unrecognized_links: warn
-not_in_nav: |
-  index.md
-  en/index.md
-  en/About/index.md
-  en/About/about.md
-  en/About/links.md
-  en/About/resume.md
-  Blog/2025/folo.md
+﻿site_name: 抖音视频
+site_description: 学习。
+site_url: https://douyin.zhihu.blog
+repo_url: https://github.com/shutouyabo/douyin.zhihu.blog
+remote_name: shutouyabo/douyin.zhihu.blog
+edit_uri: edit/main/docs/ # 编辑按钮的url
+INHERIT: mkdocs.nav.yml
+
+
 theme:
-  font: false
   name: material
-  custom_dir: overrides
-  logo: assets/images/summation.png.webp
-  palette:  # 一周七天不同颜色，白色占位
-    - scheme: placeholder
-      primary: white
-      accent: orange
-    - scheme: sun
-      primary: purple
-      accent: orange
-    - scheme: mon
-      primary: grey
-      accent: orange
-    - scheme: tues
-      primary: blue-grey
-      accent: orange
-    - scheme: wed
-      primary: teal
-      accent: orange
-    - scheme: thur
-      primary: indigo
-      accent: orange
-    - scheme: fri
-      primary: pink
-      accent: orange
-    - scheme: sat
-      primary: deep-purple
-      accent: orange
-
+  font: false # 国内网络访问 Google 源可能会有问题
+    #text: "Noto Sans SC - local"
+    #code: Roboto Mono
+  palette:
+    - media: "(prefers-color-scheme: light)" # 检查用户系统配置是否为亮色
+      scheme: default # 亮色模式
+      primary: white # 基本颜色
+      accent: blue # 按钮等互动块的颜色
+      toggle:
+        icon: material/eye
+        name: 切换暗色模式
+    - media: "(prefers-color-scheme: dark)" # 检查用户系统配置是否为暗色
+      scheme: slate # 暗色模式
+      primary: black # 基本颜色
+      accent: blue # 按钮等互动块的颜色
+      toggle:
+        icon: material/eye-outline
+        name: 切换亮色模式
+  language: zh
+  logo: img/logo-zip.png #https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/logo-zip.png
+  favicon: img/logo.svg #https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/logo.svg #https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/logo-zip.png
   features:
-    - navigation.tabs # 使用Tab来进行分类
-    - navigation.indexes # Tab会有一个index.md 而不是在打开Tab时打开第一篇文章
-    - content.code.copy # 代码内容给一个复制按钮
-    - content.code.annotate # 代码块内的注释
-    - navigation.top # 返回顶部的按钮 在上滑时出现
-    # - navigation.expand # 打开Tab时左侧目录全部展开
-    # - search.suggest # 搜索输入一些字母时推荐补全整个单词
-    # - search.highlight # 搜索出的文章关键词加入高亮
-    # - announce.dismiss # 公告标记为已读
-  language: zh # 一些提示性的文字会变成中文
+    - content.code.copy # 代码块复制按钮
+    - content.action.edit # 文章编辑按钮
+    #- navigation.instant # Instant loading，像个单页应用
+    - navigation.tracking # Anchor tracking
+    - navigation.tabs # 导航栏
+    - navigation.footer # 上一篇 / 下一篇导航按钮
+    #- navigation.tabs.sticky # 导航栏不随页面滚动隐藏
+    - navigation.sections # 侧边栏分组显示
+    #- navigation.expand # 导航栏自动展开
+    - navigation.indexes # 组标题有专属页面
+    - toc.follow # 目录自动跟随
+    - navigation.top # 返回顶部按钮
+    - search.suggest # 搜索推荐
+    #- navigation.prune # 导航修剪，仅渲染可见链接，优化文档数量超过100的站点（实验），会导致页面间跳转速度变慢
+    #- search.highlight
   icon:
-    repo: fontawesome/brands/github
-    annotation: material/alert-circle
+    repo: material/github
+    #edit: material/pencil
 
-repo_name: AIboy996.github.io
-repo_url: https://github.com/AIboy996/AIboy996.github.io
-copyright: "<a href='https://github.com/AIboy996/AIboy996.GitHub.io/blob/main/LICENSE'>&copy; 2022-2026 Yang Zhang</a><br><a href='https://icp.gov.moe/?keyword=20251021' target='_blank'>萌ICP备20251021号</a>" # 左下角的版权声明
+plugins:
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      languages:
+        - locale: zh
+          default: true
+          name: 简体中文
+          build: true
+            
+            
+          
+
+  - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+      cache_safe: true
+      js_files:
+        - javascripts/mathjax.js
+        #- javascripts/embed.js
+      css_files:
+        - stylesheets/extra.css
+  - rss:
+      abstract_chars_count: -1 # -1 for full content
+      #categories:
+      # - tags
+      #comments_path: "#__comments"
+      date_from_meta:
+        as_creation: "date"
+        #as_update: False
+        datetime_format: "%Y-%m-%d %H:%M"
+      enabled: True
+      feed_ttl: 1440
+      image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png
+      length: 1000
+      pretty_print: True
+      match_path: "(zh|blog)/.*"
+      url_parameters:
+        utm_source: "documentation"
+        utm_medium: "RSS"
+        utm_campaign: "feed-syndication"
 
 extra:
   alternate:
-    - name: zh
-      link: /
-      lang: zh
-    - name: en
-      link: /en/ 
-      lang: en
+
+  generator: false
   analytics:
     provider: google
-    property: G-8R9VRSN3S0
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
-          name: This page could be improved
-          data: 0
-          note: >- 
-            Thanks for your feedback! Help me improve this page by using the <a href="https://github.com/AIboy996/AIboy996.GitHub.io/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">feedback form</a>.
-  social: # icons, see https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
-    - icon: fontawesome/solid/rss
-      link: https://yangzhang.site/feed_rss_created.xml
-      name: RSS
-    - icon: fontawesome/brands/github
-      link: https://github.com/AIboy996
-      name: GitHub | AIboy996
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/85735334
-      name: BiliBili | 豆汁泡纳豆
-    - icon: fontawesome/brands/unsplash
-      link: https://unsplash.com/@onsdriver
-      name: Unsplash | @onsdriver
-    - icon: material/television-classic
-      link: https://bangumi.tv/anime/list/759154/do
-      name: bangumi追番列表 | 二次元
-    - icon: simple/douban
-      link: https://movie.douban.com/people/227694035/collect/
-      name: 豆瓣 | 三次元
-    - icon: material/function-variant
-      link: https://aiboy996.github.io/dzd/
-      name: 高中数学典中典
-    - icon: fontawesome/solid/blog
-      link: https://whisper.yangz.site
-      name: 微博客
-    # - icon: material/brush
-    #   link: https://plt.yangz.site
-    #   name: plt画廊
-    # - icon: fontawesome/solid/train-subway
-    #   link: https://www.travellings.cn/go.html
-    #   name: 开往
+    property: G-QBB3SQMGLN # 如果克隆我的站点，请把这串GA代码改成你自己的
+  social:
+    - name: 友链 & 导航站
+      link: https://nav.wiki-power.com/
+      icon: fontawesome/regular/address-book
+    - name: 书摘
+      link: http://digest.wiki-power.com/
+      icon: fontawesome/regular/bookmark
+    - name: 资源仓库
+      link: https://github.com/linyuxuanlin/File-host
+      icon: fontawesome/regular/file-lines
+
+copyright: Copyright &copy; since 2026 by work wiki
 
 markdown_extensions:
-  - md_in_html
-  - attr_list # 给图片后面添加{width="300"}设置大小
-  # - pymdownx.arithmatex # 更换渲染的方式，不依赖此插件，直接使用MathJax渲染
-  - footnotes
-  - toc:
-      permalink: true # 固定标题位置为当前位置
-      toc_depth: 3
-  - pymdownx.highlight: # 代码块高亮
-      # auto_title: true # 显示编程语言名称
-  - admonition
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.details
-  - pymdownx.tasklist
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.highlight:
+      anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.mark
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - mdx_truly_sane_lists
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.superfences:
-        custom_fences:
-            - name: mermaid
-              class: mermaid
-              format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true 
-  - meta # 支持Markdown文件上方自定义标题标签等
-
-extra_css:
-  - assets/stylesheets/thm.css
-  - assets/stylesheets/ai-summary.css
-  - assets/stylesheets/extra.css
-  - assets/stylesheets/termynal.css
-  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra_javascript:
-  # 随着星期几改变主题颜色
-  - assets/javascripts/color.js
+  - https://cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js
+  - javascripts/mathjax.js #https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/latest.min.js
+  - https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6 #https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
+  - https://viewer.altium.com/client/static/js/embed.js # javascripts/embed.js 
+  - javascripts/adsense.js # AdSense广告脚本
+  - javascripts/test-adsense.js # AdSense测试脚本（开发时使用）
+  - javascripts/accessibility.js
 
-  # termynal组件
-  - assets/javascripts/termynal.js
-  - assets/javascripts/gen_termynal.js
-
-  # 鼠标点击特效
-  # - https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.8/js/maodian.js
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/adsense.css 

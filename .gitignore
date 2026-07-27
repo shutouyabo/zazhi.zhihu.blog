@@ -1,11 +1,3 @@
-/venv
-/site
-.DS_Store
-.vscode
-/*.ipynb
-.checkpoints
-*.egg-info
-__pycache__
-/docs/Note/Leetcode/*.py
-.venv
-uv.lock
+tools/__pycache__/env.cpython-310.pyc
+tools/env.py
+tools/__pycache__/env.cpython-39.pyc
