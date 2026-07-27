@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt",
+  "buildCommand": "source .venv/bin/activate && mkdocs build -d site",
+  "outputDirectory": "site",
+  "framework": null,
+  "env": {
+    "NODE_OPTIONS": "--max_old_space_size=4096"
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/$1.html"
+    }
+  ]
+}
